@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: #0097A7;
+    padding: 25px;
+    border-radius: 12px;
+    width: 360px;
+    text-align: center;
+}
+
+.container h2 {
+    background: white;
+    padding: 12px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    margin: 10px 0 5px;
+    color: black;
+}
+
+input {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    font-size: 14px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    gap: 10px;
+}
+
+button {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    padding: 15px;
+    border-radius: 12px;
+    cursor: pointer;
+    flex: 1;
+    transition: 0.2s;
+}
+
+/* Warna tombol */
+button:nth-child(1) { background: #F44336; }
+button:nth-child(2) { background: #FFEB3B; color: black; }
+button:nth-child(3) { background: #4CAF50; }
+button:nth-child(4) { background: #9C27B0; }
+
+/* Hover efek */
+button:nth-child(1):hover { background: #c62828; }
+button:nth-child(2):hover { background: #fbc02d; }
+button:nth-child(3):hover { background: #388e3c; }
+button:nth-child(4):hover { background: #6a1b9a; }
+
+.hasil-box {
+    background: #d9d9d9;
+    padding: 15px;
+    border-radius: 12px;
+    margin-top: 10px;
+}
+
+#hasil {
+    background: white;
+    padding: 10px;
+    border-radius: 12px;
+    margin-top: 8px;
+}
